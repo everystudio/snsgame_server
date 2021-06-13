@@ -1,3 +1,52 @@
+
+
+VSCodeで編集を開始
+https://qiita.com/motuo/items/5c9b24606ef75535f882
+
+プラグイン追加
+PHP Debug
+PHP Intelephense
+
+Laravel Snipets
+Laravel Artisan
+Laravel Blade Snippets
+
+ローカルでLaravelが使えない
+composer install を行うもPHPのバージョンが古い
+
+phpを古いの持ってきて入れ替え
+php.iniファイルが無かったので古い設定をとりあえずそのまま移動
+
+
+mbstring
+Install or enable PHP's fileinfo extension.
+
+;extension=fileinfo
+とかいろいろ文句言われてそうなところの；を外していったらうまいこといった・・・と思う
+
+Package jakub-onderka/php-console-color is abandoned, you should avoid using it. Use php-parallel-lint/php-console-color instead.
+Package jakub-onderka/php-console-highlighter is abandoned, you should avoid using it. Use php-parallel-lint/php-console-highlighter instead.
+Package mtdowling/cron-expression is abandoned, you should avoid using it. Use dragonmantank/cron-expression instead.
+Package fzaninotto/faker is abandoned, you should avoid using it. No replacement was suggested.
+Package phpunit/php-token-stream is abandoned, you should avoid using it. No replacement was suggested.
+Package phpunit/phpunit-mock-objects is abandoned, you should avoid using it. No replacement was suggested.
+Generating optimized autoload files
+Carbon 1 is deprecated, see how to migrate to Carbon 2.
+https://carbon.nesbot.com/docs/#api-carbon-2
+    You can run ".\vendor\bin\upgrade-carbon" to get help in updating carbon and other frameworks and libraries that depend on it.
+> Illuminate\Foundation\ComposerScripts::postAutoloadDump
+> @php artisan package:discover
+Discovered Package: fideloper/proxy
+Discovered Package: laravel/tinker
+Discovered Package: nesbot/carbon
+Package manifest generated successfully.
+38 packages you are using are looking for funding.
+Use the `composer fund` command to find out more!
+
+
+
+
+
 <p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
 
 <p align="center">
