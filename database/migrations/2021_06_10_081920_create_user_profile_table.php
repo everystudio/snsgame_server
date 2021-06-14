@@ -22,4 +22,16 @@ class CreateUserProfileTable extends Migration
 		$table->primary('user_id');
         });
     }
+        /**
+     * Reverse the migrations.
+     *
+     * @return void
+     */
+    public function down()
+    {
+        
+        Schema::dropIfExists('user_profile');
+        
+    }
+
 }

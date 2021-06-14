@@ -1,4 +1,5 @@
 
+// sftp接続確認2021-06-14　22:47
 
 VSCodeで編集を開始
 https://qiita.com/motuo/items/5c9b24606ef75535f882
@@ -16,7 +17,6 @@ composer install を行うもPHPのバージョンが古い
 
 phpを古いの持ってきて入れ替え
 php.iniファイルが無かったので古い設定をとりあえずそのまま移動
-
 
 mbstring
 Install or enable PHP's fileinfo extension.
