@@ -15,7 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
-Route::get('registration','RegistrationController@Start');
+Route::get('registration','RegistrationController@Registration');
 
 
 
